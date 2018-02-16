@@ -1,0 +1,267 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+   
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+    font-family: Myriad Set Pro;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* clearfix */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+nav ul
+{
+     display: flex;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 0.8;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+#presentation
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+        
+}
+
+#text_presentation
+{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 580px;
+    height: 571px;
+    line-height: 59px;
+   
+}
+
+#Iphones6S img
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+        
+}
+#text_presentation h3
+{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+#text_presentation h5
+{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    
+}
+
+#plug
+{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+#photos
+{
+    display: flex;
+     
+}
+
+.photo
+{
+    margin-left: 1px;
+    margin-right: 1px;
+   
+}
+
+#photos img 
+{
+    width: 25%;
+    height: 166px;
+}
+#footer
+{
+    max-width: 1580px;
+    padding-left: 230px;
+    padding-right: 230px;
+    background-color: #edeaea;
+}
+
+#foot_list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.list 
+{
+    width: 20%;
+    line-height: 27px;
+    font-size: 11px;
+}
+
+.list span
+{
+    font-weight: bold;
+}
+
+#credits
+{
+    
+}
+#Store
+{
+    height:30px;
+    font-size: 12px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+   
+}
+
+#foot_note
+{
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 10px;
+    
+}
+
+#policy
+{
+    margin-left: 10px;
+    padding-right: 5px;
+    border-right: 2px solid grey;
+    
+}
+
+#policy a
+{
+    text-decoration: none;
+    color: black;
+}
+#Terms
+{
+    margin-left: 5px;
+    padding-right: 5px;
+    border-right: 2px solid grey; 
+}
+
+#Terms a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#Sales
+{
+    margin-left: 5px;
+    padding-right: 5px;
+    border-right: 2px solid grey;  
+}
+
+#Sales a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#Map
+{
+    margin-left: 5px;
+}
+
+#Map a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#USA
+{
+    display: flex;
+    margin-left: auto;
+}
+
+#United p
+{
+   padding: 3px 0px 0px 5px;
+}
+/*               End of Setup             */
